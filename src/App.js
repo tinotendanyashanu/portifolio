@@ -1,4 +1,5 @@
 import Header from "./components/header/header";
+import Navbar from "./components/nav/nav";
 
 function WebContent() {
   return (
@@ -6,6 +7,7 @@ function WebContent() {
       <div className="big-circle1"></div>
       <div className="big-circle2"></div>
       <Header />
+      <Navbar />
     </>
   );
 }
